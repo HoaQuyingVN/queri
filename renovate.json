@@ -7,7 +7,7 @@
 "description": "Limit the aws sdk to monthly updates because otherwise it PRs every day",
 "packageNames": ["com.amazonaws:*"],
 "schedule": ["monthly"]
-}]
+}],
 "prTitle": "chore(deps): update dependency and install dependency => {{depName}}",
 "prBody": "Party.js Update Tools v2\n> There are a few changes to the Party.js dependency(s) that need to be made.\n> \n> {{depName}}\n> \n> {{depVersion}} \n\n - [ ] Update dependency\n - [ ] Install dependency \n - [ ] Don't update?, don't install dependency(s) need other dependency(s)?",
 "prFooter": "This PR was created by Renovate",
